@@ -43,6 +43,14 @@
     <li>MongoDB</li>
     <li>Git</li>
   </ul>
+## Login Page
+
+
+![home](https://github.com/user-attachments/assets/0cb7ba1d-03d0-4927-b828-8571f715a169)
+![find-My-Geo](https://github.com/user-attachments/assets/e37c28c8-6806-471f-a211-79af539e60fd)
+![login](https://github.com/user-attachments/assets/8dfbf30c-14d9-433c-a730-3c247c6b4f4e)
+![register](https://github.com/user-attachments/assets/3b4eac63-4831-4ba2-a53f-fe492ae87f23)
+
 
   <h3>Installation</h3>
   <pre><code>git clone https://github.com/Candbury/medicare-app-main.git</code></pre>
