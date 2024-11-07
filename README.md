@@ -144,7 +144,7 @@ JWT_SECRET=your_jwt_secret</code></pre>
   </p>
 
   <h2>License</h2>
-  <p>This project is licensed under the MIT License.</p>
+  <p>This project is licensed under Chaman and team!.</p>
 
   <h2>Contact</h2>
   <p>
