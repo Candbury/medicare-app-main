@@ -43,13 +43,7 @@
     <li>MongoDB</li>
     <li>Git</li>
   </ul>
-## Login Page
 
-
-![home](https://github.com/user-attachments/assets/0cb7ba1d-03d0-4927-b828-8571f715a169)
-![find-My-Geo](https://github.com/user-attachments/assets/e37c28c8-6806-471f-a211-79af539e60fd)
-![login](https://github.com/user-attachments/assets/8dfbf30c-14d9-433c-a730-3c247c6b4f4e)
-![register](https://github.com/user-attachments/assets/3b4eac63-4831-4ba2-a53f-fe492ae87f23)
 
 
   <h3>Installation</h3>
@@ -125,6 +119,24 @@ JWT_SECRET=your_jwt_secret</code></pre>
     <li><strong>Frontend:</strong> React, Tailwind CSS, Vite</li>
     <li><strong>Authentication:</strong> JWT</li>
   </ul>
+
+  <h2>ScreenShots</h2>
+## Home Page
+
+![home](https://github.com/user-attachments/assets/0cb7ba1d-03d0-4927-b828-8571f715a169)
+
+## Search Page
+
+![find-My-Geo](https://github.com/user-attachments/assets/e37c28c8-6806-471f-a211-79af539e60fd)
+
+## Login Page
+
+![login](https://github.com/user-attachments/assets/8dfbf30c-14d9-433c-a730-3c247c6b4f4e)
+
+## Register Page
+
+![register](https://github.com/user-attachments/assets/3b4eac63-4831-4ba2-a53f-fe492ae87f23)
+
 
   <h2>Contributing</h2>
   <p>
