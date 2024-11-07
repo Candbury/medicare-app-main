@@ -1,9 +1,134 @@
-# React + Vite
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Medicare App</title>
+</head>
+<body>
+  <h1>Medicare App</h1>
+  <p>
+    A comprehensive healthcare application designed to connect patients with doctors, manage appointments, and provide feedback. The app consists of a full-stack setup using Node.js, Express, MongoDB, and React with Tailwind CSS for styling. 
+  </p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <h2>Features</h2>
+  <ul>
+    <li>User authentication (register, login, protected routes)</li>
+    <li>Doctor profiles and services listing</li>
+    <li>Booking and managing appointments</li>
+    <li>Reviews and feedback system</li>
+    <li>Responsive design with Tailwind CSS</li>
+  </ul>
 
-Currently, two official plugins are available:
+  <h2>Project Structure</h2>
+  <p>The project is divided into two main folders:</p>
+  <ul>
+    <li>
+      <strong>Backend/</strong>
+      <ul>
+        <li>Contains the backend code, including API routes, controllers, and database models.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>src/</strong>
+      <ul>
+        <li>Contains the frontend code built with React.</li>
+      </ul>
+    </li>
+  </ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# medicare-app-main
+  <h2>Getting Started</h2>
+  <h3>Prerequisites</h3>
+  <p>Ensure you have the following installed:</p>
+  <ul>
+    <li>Node.js</li>
+    <li>MongoDB</li>
+    <li>Git</li>
+  </ul>
+
+  <h3>Installation</h3>
+  <pre><code>git clone https://github.com/Candbury/medicare-app-main.git</code></pre>
+  <pre><code>cd medicare-app-main</code></pre>
+
+  <h3>Backend Setup</h3>
+  <ol>
+    <li>Navigate to the <code>Backend</code> folder:</li>
+    <pre><code>cd Backend</code></pre>
+    <li>Install dependencies:</li>
+    <pre><code>npm install</code></pre>
+    <li>Create a <code>.env</code> file with the following variables:</li>
+    <pre><code>PORT=5000
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret</code></pre>
+    <li>Start the server:</li>
+    <pre><code>npm start</code></pre>
+  </ol>
+
+  <h3>Frontend Setup</h3>
+  <ol>
+    <li>Navigate to the project root and install dependencies:</li>
+    <pre><code>npm install</code></pre>
+    <li>Start the frontend development server:</li>
+    <pre><code>npm run dev</code></pre>
+  </ol>
+
+  <h2>Scripts</h2>
+  <p>In the project directory, you can run:</p>
+  <ul>
+    <li><code>npm run dev</code> - Starts the frontend in development mode.</li>
+    <li><code>npm start</code> - Starts the backend server.</li>
+  </ul>
+
+  <h2>Environment Variables</h2>
+  <p>
+    The backend requires a <code>.env</code> file with the following variables:
+  </p>
+  <ul>
+    <li><code>PORT</code> - The port number for the backend server.</li>
+    <li><code>MONGO_URI</code> - MongoDB connection URI.</li>
+    <li><code>JWT_SECRET</code> - Secret key for JWT authentication.</li>
+  </ul>
+
+  <h2>Folder Structure</h2>
+  <pre><code>.
+├── Backend
+│   ├── auth
+│   ├── controllers
+│   ├── models
+│   ├── routes
+│   ├── .env
+│   ├── package.json
+├── src
+│   ├── Components
+│   ├── Dashboard
+│   ├── Hooks
+│   ├── Layout
+│   ├── Pages
+│   ├── Routes
+│   ├── Services
+│   ├── assets
+│   ├── index.css
+│   ├── main.jsx
+├── package.json
+├── tailwind.config.js
+└── vite.config.js</code></pre>
+
+  <h2>Technologies Used</h2>
+  <ul>
+    <li><strong>Backend:</strong> Node.js, Express, MongoDB</li>
+    <li><strong>Frontend:</strong> React, Tailwind CSS, Vite</li>
+    <li><strong>Authentication:</strong> JWT</li>
+  </ul>
+
+  <h2>Contributing</h2>
+  <p>
+    Contributions are welcome! Please fork the repository and create a pull request.
+  </p>
+
+  <h2>License</h2>
+  <p>This project is licensed under the MIT License.</p>
+
+  <h2>Contact</h2>
+  <p>
+    For any inquiries or issues, please reach out via the <a href="https://github.com/Candbury">GitHub repository</a>.
+  </p>
+</body>
+</html>
