@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Medicare App</title>
-</head>
-<body>
+
   <h1>Medicare App</h1>
   <p>
     A comprehensive healthcare application designed to connect patients with doctors, manage appointments, and provide feedback. The app consists of a full-stack setup using Node.js, Express, MongoDB, and React with Tailwind CSS for styling. 
